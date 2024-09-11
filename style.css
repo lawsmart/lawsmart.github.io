@@ -1,0 +1,53 @@
+body {
+    background-color: #b9cc81;
+    color: antiquewhite;
+    font-family: "Silkscreen";
+    margin: 0%;
+    font-size: 1.5vw;
+}
+#logo {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Jacquard 24";
+    font-size: 40px;
+    box-shadow: 5px 5px 8px 3px #748500;
+    width: 30%;
+    border-radius: 5%;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #feffca;
+    color: #b9cc81;
+    margin: 0px;
+}
+body > header> nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+.navbutton {
+color: aliceblue;
+text-decoration: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+body > footer {
+    background-color: #feffca ;
+    margin: 0px;
+}
+img {
+    border-radius: 100%;
+}
