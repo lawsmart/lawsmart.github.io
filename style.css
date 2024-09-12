@@ -5,13 +5,15 @@ body {
     margin: 0%;
     font-size: 1.2vw;
 }
-#logo {
+#logo > a {
     margin: 0px;
     padding: 10px;
     font-family: "Jacquard 24";
     font-size: 4.5vw;
     width: 30%;
     border-radius: 5%;
+    color: #748500;
+    text-decoration: none;
 }
 
 ul {
