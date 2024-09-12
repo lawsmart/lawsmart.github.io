@@ -1,16 +1,15 @@
 body {
     background-color: #b9cc81;
-    color: antiquewhite;
-    font-family: "Silkscreen";
+    color: #748500;
+    font-family: "Dela Gothic One";
     margin: 0%;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 #logo {
     margin: 0px;
     padding: 10px;
     font-family: "Jacquard 24";
-    font-size: 40px;
-    box-shadow: 5px 5px 8px 3px #748500;
+    font-size: 4.5vw;
     width: 30%;
     border-radius: 5%;
 }
@@ -21,22 +20,67 @@ ul {
 
 body > header {
     background-color: #feffca;
-    color: #b9cc81;
+    color: #748500;
     margin: 0px;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
 }
+
+#nav-ul{
+    display: flex;
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 15px;
+}
+
 body > header> nav > ul {
     list-style: none;
     text-decoration: none;
 }
+
 .navbutton {
-color: aliceblue;
+color: #748500;
 text-decoration: none;
+padding: 12px;
+border: 1px solid #748500;
 }
 
-body > main > article {
+body > main article {
     width: 70%;
     margin: auto;
 }
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+#main-content > aside {
+   
+}
+
+#ul-aside > li {
+    list-style: none;
+    
+   
+}
+#ul-extra > li {
+    list-style: none;
+}
+
+#ul-extra > li > a {
+    text-decoration: none;
+    color: #748500;
+}
+
 form {
     text-align: center;
 }
@@ -44,10 +88,27 @@ form {
 h2 {
     text-align: center;
 }
+
 body > footer {
     background-color: #feffca ;
     margin: 0px;
+    display: flex;
 }
+
 img {
     border-radius: 100%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 16px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: #748500;
 }
